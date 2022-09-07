@@ -408,7 +408,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 75px;
+  width: 56px;
 }
 
 .header-area .main-nav .nav {
@@ -549,7 +549,7 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 14px;
 }
 
 .header-area.header-sticky .nav {
