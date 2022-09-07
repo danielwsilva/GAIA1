@@ -769,10 +769,6 @@ features
   margin-bottom: 30px;
 }
 
-.teste {
-  text-align: left;
-}
-
 .features-small-item:hover .icon {
   background-color: #ff589e;
 }
