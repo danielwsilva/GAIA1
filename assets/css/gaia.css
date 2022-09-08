@@ -414,8 +414,13 @@ header
 }
 
 @media (max-width: 991px) {
+  .header-area .main-nav .nav li:last-child {
+    background: #ff589e !important;
+  }
+
   .header-area .main-nav .nav li:last-child a {
-    color: #3B566E !important;
+    color: #fff !important;
+    background: transparent !important;
   }
 }
 
