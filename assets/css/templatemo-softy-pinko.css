@@ -433,8 +433,17 @@ header
   padding-right: 0px;
 }
 
+.header-area .main-nav .nav li:last-child a {
+  color: #fff !important;
+}
+
+@media (max-width: 991px) {
+  .header-area .main-nav .nav li:last-child a {
+    color: #3B566E !important;
+  }
+}
+
 .header-area .main-nav .nav li a {
-  display: block;
   font-weight: 500;
   font-size: 13px;
   color: #fff;
@@ -550,6 +559,12 @@ header
 
 .header-area.header-sticky .logo {
   margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .header-area.header-sticky .logo {
+    margin-top: 16px !important;
+  }
 }
 
 .header-area.header-sticky .nav {
